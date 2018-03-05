@@ -12,7 +12,7 @@ Since the underwater images are degraded so the image the image enhancement tech
 
 ### Original Image
 <p align="center">
-  <img src="https://github.com/ksakash/my_cv/blob/master/test_images/frame0000.jpg?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/ksakash/my_cv/blob/master/test_images/frame11.jpg" alt="Sublime's custom image"/>
 </p>
 
 ## CLAHE algorithm for color correction
@@ -48,7 +48,7 @@ In general, whereas dilation expands region A, [`erosion()`](http://docs.opencv.
 
 ### After thresholding
 <p align="center">
-  <img src="https://github.com/ksakash/my_cv/blob/master/test_images/frame0001.jpg?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/ksakash/my_cv/blob/master/test_images/123.jpg" alt="Sublime's custom image"/>
 </p>
 
 The [`findContours()`](http://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html?highlight=findcontours#findcontours) function is used to find the contours in the image through which we will get all the relevant information about our targets like its center, contour area, coutour center, etc.
